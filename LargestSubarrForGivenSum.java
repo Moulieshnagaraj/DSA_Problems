@@ -1,3 +1,23 @@
+/*
+  
+  Arr={1,2,4,8,12,45,21,8,2}
+  K=10
+  o/p: 8+2 =10 so, it shoud return start and end index of the subarray --> start: 7 and End: 8
+  
+  
+  Efficient approach: Kadane's algorithm
+  
+  Time complexity: O(N)
+  Space complexity: O(1)
+
+
+
+
+*/
+
+
+
+
 
 import java.util.*;
 class Main {
