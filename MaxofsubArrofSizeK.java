@@ -1,3 +1,23 @@
+/*
+	
+Arr={8,5,10,7,9,4,15,12,90,13}
+k=4
+
+take subarr of length of K and find the maximume element of the subarray.
+
+Explanation: 
+	{8,5,10,7} = 10
+	{5,10,7,9} = 10
+	{10,7,9,4} = 10
+	{7,9,4,15} = 15
+	{9,4,15,12}= 15
+	{4,15,12,90}=90
+	{15,12,90,13}=90
+
+o/p: --> 10 10 10 15 15 90 90
+
+*/
+
 
 import java.util.*;
 class Main {
