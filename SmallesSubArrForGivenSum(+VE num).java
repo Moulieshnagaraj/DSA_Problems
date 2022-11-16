@@ -1,4 +1,26 @@
 
+/*
+
+Arr={3,2,5,5,2,3,10}
+
+k=10
+
+subarry with sum 10 = {3,2,5} , {5,5}, {5,2,3} ,{10} 
+
+smallest subarray with sum "K" is = {10}
+
+o/p: Should be length of the subarray 
+o/p --> 1
+
+**** ONLY APPLICABLE FOR NON-NAGATIVE NUMBERS ***
+
+Techinique: SLIDING WINDOW AND TWO POINTER
+TimeComplexity: O(N)
+SpaceComplexity: O(1)
+
+
+*/
+
 import java.util.*;
 
 class Main {
