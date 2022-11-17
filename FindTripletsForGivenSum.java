@@ -1,4 +1,25 @@
+/*
 
+Arr={12, 3, 4, 1, 6, 9};
+k=24
+
+We have to find the triplets for given sum: 
+{12,3,9} = 24
+
+Naive approach: O(N^3) 
+for( i=0 -> n-2)
+	for(j=i+1 -> n-1)
+		for(k=j+1 -> n)
+
+
+Effiicient approach: O(N^2)
+Space complexity: O(1)
+
+Techiniques: start and end pointer.
+
+
+
+*/
 import java.util.*;
 class Main {
     public static int findTripletCountOfgiveSum(int[] arr, int k){
